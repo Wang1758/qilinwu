@@ -1,0 +1,224 @@
+site_name: 麒麟舞
+site_author: hzq
+
+markdown_extensions:
+  - attr_list           # 允许属性（如 {: .class }）
+  - md_in_html          # 解析 HTML 标签内的 Markdown
+  - tables              # 支持表格
+  - pymdownx.superfences # 允许嵌套 Markdown（如 HTML 块内的列表）
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - content.grid         # 必须启用网格布局
+    - content.cards        # 必须启用卡片效果
+  icon:
+    emoji: true
+  palette:
+    primary: indigo        # 主色调（可选调整）
+
+  variables: # 下面这两行不知道干嘛的，但是好像删不了
+    --md-primary-fg-color: "#ff0000"
+    --md-primary-fg-color--dark: "#3c3c3c"
+
+extra_css:
+  - css/custom.css  # 真正的颜色在这里
+
+nav:
+  - 首页:
+    - index.md
+    - 编写委员会: main/committee.md
+    - 友链: main/friendlink.md
+  - 视频:
+    - video/index.md
+    - 大万:
+      - video/dawan/index.md
+      - 非遗项目基本情况:
+        - video/dawan/information/index.md
+        - 历史沿革: video/dawan/information/info1.md
+      - 相关习俗:
+        - video/dawan/mores/index.md
+        - 大万祭祖麒麟舞表演: video/dawan/mores/info1.md
+        - 大年初二大万祭祖: video/dawan/mores/info2.md
+        - 第十二届深圳市沙头角鱼灯节非遗展演活动  : video/dawan/mores/info3.md
+      - 场地:
+        - video/dawan/site/index.md
+        - 培训场地: video/dawan/site/info1.md
+      - 道具:
+        - video/dawan/Props/index.md
+        - 神位 : video/dawan/Props/info2.md
+        - 麒麟: video/dawan/Props/info3.md
+        - 麒麟头 : video/dawan/Props/info4.md
+        - 鼓: video/dawan/Props/info5.md
+        - 锣: video/dawan/Props/info6.md
+      - 训练体系:
+        - video/dawan/training/index.md
+        - 三拜礼讲解: video/dawan/training/info1.md
+        - 三拜礼教学: video/dawan/training/info2.md
+      - 传承体系:
+        - video/dawan/inheritance/index.md
+        - 传承人（含曾旭东口述访谈资料）: video/dawan/inheritance/info1.md
+        - 传承方式（麒麟培训）: video/dawan/inheritance/info2.md
+      - 组织机构:
+        - video/dawan/organization/index.md
+        - 第十二届深圳市沙头角鱼灯节 非遗展演活动: video/dawan/organization/info1.md
+      - 保护情况:
+        - video/dawan/protection/index.md
+        - 第十二届深圳市沙头角鱼灯节 非遗展演活动: video/dawan/protection/info1.md
+        - 深圳市文博会宣讲: video/dawan/protection/info2.md
+        - 2024年深圳职业技术大学宣讲: video/dawan/protection/info3.md
+        - 进校园: video/dawan/protection/info4.md
+        - 2021年舞蹈创作《客韵》: video/dawan/protection/info5.md
+        - 2021年舞蹈创作《客韵》节选: video/dawan/protection/info6.md
+        - 首届坪山戏剧创作营: video/dawan/protection/info7.md
+        - “非遗在社区”坪环社区: video/dawan/protection/info8.md
+      - 活动内容:
+        - video/dawan/activity/index.md
+        - 麒麟参拜仪式: video/dawan/activity/info1.md
+    - 光武:
+      - video/guangwu/index.md
+    - 坑梓:
+      - video/kengzi/index.md
+    - 龙田:
+      - video/longtian/index.md
+  - 文字:
+    - text/index.md
+    - 大万:
+      - text/dawan/index.md
+      - 非遗项目基本情况:
+        - text/dawan/baseInfo/index.md
+        - 环境: text/dawan/baseInfo/info1.md
+        - 历史沿革: text/dawan/baseInfo/info2.md
+        - 分布区域: text/dawan/baseInfo/info3.md
+        - 存续状况: text/dawan/baseInfo/info4.md
+        - 价值: text/dawan/baseInfo/info5.md
+        - 传承人: text/dawan/baseInfo/info6.md
+      - 相关习俗: text/dawan/custom.md
+      - 场地: text/dawan/site.md
+      - 器械（具）:
+        - text/dawan/utensil/index.md
+        - 器械、道具: text/dawan/utensil/info1.md
+        - 服装: text/dawan/utensil/info2.md
+      - 训练理论与方法: text/dawan/theory.md
+      - 传承:
+        - text/dawan/inherit/index.md
+        - 传承人（含代表性传承人）: text/dawan/inherit/info1.md
+        - 传承谱系: text/dawan/inherit/info2.md
+        - 传承方式: text/dawan/inherit/info3.md
+        - 组织机构: text/dawan/inherit/info4.md
+        - 文物古迹: text/dawan/inherit/info5.md
+        - 文献资料: text/dawan/inherit/info6.md
+      - 组织机构: text/dawan/organization.md
+      - 文物古迹: text/dawan/historical.md
+      - 文献资料: text/dawan/docu.md
+      - 保护情况:
+        - text/dawan/protect/index.md
+        - 保护规划: text/dawan/protect/info1.md
+        - 保护机制: text/dawan/protect/info2.md
+      - 活动方法: text/dawan/activity.md
+      - 活动规则: text/dawan/rule.md
+    - 光武:
+      - text/guangwu/index.md
+    - 坑梓:
+      - text/kengzi/index.md
+    - 龙田:
+      - text/longtian/index.md
+
+  - 图片:
+    - image/index.md
+    - 大万:
+      - image/dawan/index.md
+      - 非遗项目基本情况:
+        - image/dawan/baseInfo/index.md
+        - 非遗项目综合概述: image/dawan/baseInfo/info1.md
+      - 相关习俗:
+        - image/dawan/custom/index.md
+        - image/dawan/custom/info1.md
+        - image/dawan/custom/info2.md
+        - image/dawan/custom/info3.md
+        - image/dawan/custom/info4.md
+        - image/dawan/custom/info5.md
+        - image/dawan/custom/info6.md
+        - image/dawan/custom/info7.md
+        - image/dawan/custom/info8.md
+      - 场地:
+        - image/dawan/site/index.md
+        - image/dawan/site/info1.md
+        - image/dawan/site/info2.md
+      - 道具:
+        - image/dawan/props/index.md
+        - image/dawan/props/info1.md
+        - image/dawan/props/info2.md
+        - image/dawan/props/info3.md
+        - image/dawan/props/info4.md
+        - image/dawan/props/info5.md
+        - image/dawan/props/info6.md
+        - image/dawan/props/info7.md
+        - image/dawan/props/info8.md
+        - image/dawan/props/info9.md
+        - image/dawan/props/info10.md
+        - image/dawan/props/info11.md
+      - 传承:
+        - image/dawan/successor/index.md
+        - image/dawan/successor/info1.md
+        - image/dawan/successor/info2.md
+        - image/dawan/successor/info3.md
+      - 组织机构:
+        - image/dawan/organization/index.md
+        - image/dawan/organization/info1.md
+        - image/dawan/organization/info2.md
+      - 文献资料:
+        - image/dawan/docu/index.md
+        - image/dawan/docu/info1.md
+        - image/dawan/docu/info2.md
+        - image/dawan/docu/info3.md
+        - image/dawan/docu/info4.md
+      - 保护情况:
+        - image/dawan/protect/index.md
+        - image/dawan/protect/info1.md
+        - image/dawan/protect/info2.md
+        - image/dawan/protect/info3.md
+        - image/dawan/protect/info4.md
+        - image/dawan/protect/info5.md
+        - image/dawan/protect/info6.md
+        - image/dawan/protect/info7.md
+        - image/dawan/protect/info8.md
+        - image/dawan/protect/info9.md
+      - 活动内容:
+        - image/dawan/activity/index.md
+        - image/dawan/activity/info1.md
+        - image/dawan/activity/info2.md
+    - 光武:
+      - image/guangwu/index.md
+    - 坑梓:
+      - image/kengzi/index.md
+    - 龙田:
+      - image/longtian/index.md
+  - 音频:
+    - audio/index.md
+    - 大万: 
+      - audio/dawan/index.md
+      - 训练理论与方法: 
+        - audio/dawan/theory/index.md
+        - 学习麒麟舞之初: audio/dawan/theory/learn/chu1.md
+        - 大万舞麒麟的主要内容与过程: audio/dawan/theory/learn/chu2.md
+        - 大万舞麒麟的独特之处: audio/dawan/theory/learn/chu3.md
+      - 传承人（含代表性传承人）:
+        - 传承人: audio/dawan/representative/index.md
+        - 传承人基本信息: audio/dawan/representative/info1.md
+        - 学艺经历和师承关系: audio/dawan/representative/info2.md
+        - 艺术特点与专长: audio/dawan/representative/info3.md
+        - 表演内容与过程介绍: audio/dawan/representative/info4.md
+        - 代表作品及其介绍: audio/dawan/representative/info5.md
+        - 成就和影响: audio/dawan/representative/info6.md
+        - 传承情况: audio/dawan/representative/info7.md
+      - 活动内容:
+        - audio/dawan/activity/index.md
+        - 大万舞麒麟的主要内容与过程: audio/dawan/activity/info1.md
+    - 光武:
+      - audio/guangwu/index.md
+    - 坑梓:
+      - audio/kengzi/index.md
+    - 龙田:
+      - audio/longtian/index.md

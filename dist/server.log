@@ -1,0 +1,31 @@
+2025-04-09 20:46:38,142 - INFO - 图标路径: C:\Users\86130\AppData\Local\Temp\_MEI160802\icon.png
+2025-04-09 20:46:38,142 - INFO - ==================================================
+2025-04-09 20:46:38,142 - INFO - 服务器已启动: http://localhost:8000
+2025-04-09 20:46:38,142 - INFO - ==================================================
+2025-04-09 20:46:38,142 - INFO - 工作目录: C:\Users\86130\AppData\Local\Temp\_MEI160802\site
+2025-04-09 20:46:47,980 - INFO - 127.0.0.1 - - [09/Apr/2025 20:46:47] "GET / HTTP/1.1" 200 -
+2025-04-09 20:46:47,982 - INFO - 127.0.0.1 - - [09/Apr/2025 20:46:47] "GET / HTTP/1.1" 200 -
+2025-04-09 20:46:47,995 - INFO - 127.0.0.1 - - [09/Apr/2025 20:46:47] "GET /assets/stylesheets/main.4af4bdda.min.css HTTP/1.1" 200 -
+2025-04-09 20:46:48,303 - INFO - 127.0.0.1 - - [09/Apr/2025 20:46:48] "GET /css/custom.css HTTP/1.1" 200 -
+2025-04-09 20:46:48,304 - INFO - 127.0.0.1 - - [09/Apr/2025 20:46:48] "GET /assets/stylesheets/palette.06af60db.min.css HTTP/1.1" 200 -
+2025-04-09 20:46:48,305 - INFO - 127.0.0.1 - - [09/Apr/2025 20:46:48] "GET /assets/javascripts/bundle.c8b220af.min.js HTTP/1.1" 200 -
+2025-04-09 20:47:08,770 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:08] "GET / HTTP/1.1" 200 -
+2025-04-09 20:47:08,780 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:08] "GET / HTTP/1.1" 304 -
+2025-04-09 20:47:08,795 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:08] "GET /assets/stylesheets/main.4af4bdda.min.css HTTP/1.1" 304 -
+2025-04-09 20:47:09,098 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:09] "GET /assets/javascripts/bundle.c8b220af.min.js HTTP/1.1" 304 -
+2025-04-09 20:47:09,098 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:09] "GET /css/custom.css HTTP/1.1" 304 -
+2025-04-09 20:47:09,101 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:09] "GET /assets/stylesheets/palette.06af60db.min.css HTTP/1.1" 304 -
+2025-04-09 20:47:09,444 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:09] "GET /assets/images/favicon.png HTTP/1.1" 200 -
+2025-04-09 20:47:09,444 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:09] "GET /search/search_index.json HTTP/1.1" 200 -
+2025-04-09 20:47:09,515 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:09] "GET /assets/javascripts/workers/search.f8cc74c7.min.js HTTP/1.1" 200 -
+2025-04-09 20:47:10,731 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:10] "GET /video/ HTTP/1.1" 200 -
+2025-04-09 20:47:14,029 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:14] "GET /video/dawan/information/ HTTP/1.1" 200 -
+2025-04-09 20:47:14,333 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:14] "GET /assets/stylesheets/main.4af4bdda.min.css HTTP/1.1" 304 -
+2025-04-09 20:47:14,362 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:14] "GET /assets/stylesheets/palette.06af60db.min.css HTTP/1.1" 304 -
+2025-04-09 20:47:14,364 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:14] "GET /css/custom.css HTTP/1.1" 304 -
+2025-04-09 20:47:14,364 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:14] "GET /assets/javascripts/bundle.c8b220af.min.js HTTP/1.1" 304 -
+2025-04-09 20:47:14,687 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:14] "GET /assets/javascripts/workers/search.f8cc74c7.min.js HTTP/1.1" 304 -
+2025-04-09 20:47:14,687 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:14] "GET /search/search_index.json HTTP/1.1" 304 -
+2025-04-09 20:47:15,189 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:15] "GET /video/dawan/information/info1/ HTTP/1.1" 200 -
+2025-04-09 20:47:16,303 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:16] "GET /video/dawan/information/info1/ HTTP/1.1" 304 -
+2025-04-09 20:47:16,607 - INFO - 127.0.0.1 - - [09/Apr/2025 20:47:16] "GET /assets/images/favicon.png HTTP/1.1" 304 -

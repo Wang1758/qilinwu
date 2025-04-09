@@ -1,0 +1,30 @@
+:root {
+    --md-primary-fg-color: #FF7F00 !important;
+  }
+
+/* 卡片网格布局 */
+.grid.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+/* 卡片样式 */
+.grid.cards > ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* 状态文本 */
+.status {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.85em;
+    color: #666;
+}
